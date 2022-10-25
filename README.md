@@ -25,3 +25,9 @@ Add bash checks for git, green checkmark
 Use issues for ideas
 PR’s
 
+Next things
+
+1. What will the app do?
+2. What will the app look like?
+3. What technologus do we want for front and back end?
+
