@@ -1,33 +1,56 @@
-# MA-Web-App
-Web app that includes sports and more learning
-Things to include
-API
-Front End user input 
-Database
-Deploy
-Gather user data
-Next ideas
-	Sports idea
-	Othello
-	Weather
-	Finance 
-	Chat functionality
-Github
+# **MA-Web-App**
 
-MA-Web-App
+## **Overview**
 
-For branches
-We have main for development
-Test for testing branch
-	And prod for what’s in production.
+Web app that gathers sports data and stores data in database. More information to come.
 
-Add bash checks for git, green checkmark
-Use issues for ideas
-PR’s
+### Things that we would like to include
 
-Next things
+- Gather data from API's
+- Create API
+- Store Information in Database
+- Include Front End user input
+- deploy to own server
+- deploy to aws
+- Gather user data, and store in database
+
+### Ideas to implement
+
+- Sports idea
+- Othello
+- Weather
+- Finance
+- Chat functionality
+
+### Other overview
+
+- Thinking about using api to call once a day then store that information in database and have our front end call back end API we create to get information from database.
+- Thinking maybe using Django becuase it is in python and can be an easy thing to use with data.
+
+## **Development**
+
+### Branches
+
+- Main branch for Development
+- Test branch for tesing branch
+- Prod branch to keep up with production code
+- Create branch for each new feature
+
+### Other
+
+- Use github test
+- Use github issues for ideas we want
+- PR’s
+
+## **Next things**
 
 1. What will the app do?
 2. What will the app look like?
 3. What technologus do we want for front and back end?
+
+## **Tech Stack**
+
+- Django
+- React
+
 
