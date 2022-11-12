@@ -36,6 +36,19 @@ Web app that gathers sports data and stores data in database. More information t
 - Prod branch to keep up with production code
 - Create branch for each new feature
 
+### Install
+
+npm install -g npx
+sudo apt-get install curl
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+nvm install node
+
+For creating front end
+npx create-react-app ma-front-end --template typescript
+npm install sass --save-dev
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related?hl=en
+https://codesandbox.io/embed/reach-ui-hover-dropdown-bzid5
+
 ### Other
 
 - Use github test
@@ -52,5 +65,3 @@ Web app that gathers sports data and stores data in database. More information t
 
 - Django
 - React
-
-
