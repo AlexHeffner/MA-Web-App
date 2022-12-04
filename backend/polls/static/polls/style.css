@@ -1,0 +1,9 @@
+li a {
+  color: green;
+}
+body {
+  background: rgb(221, 201, 201) url("images/backround.jpg") no-repeat;
+  background-size: 200px;
+  width: 400px;
+  height: 400px
+}
