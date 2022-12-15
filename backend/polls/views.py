@@ -4,6 +4,9 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.urls import reverse
 from django.views import generic
 from django.utils import timezone
+from . serializer import *
+from rest_framework.response import Response
+from rest_framework.views import APIView
 
 from .models import Choice, Question
 
@@ -49,3 +52,15 @@ def vote(request, question_id):
     # with POST data. This prevents data from being posted twice if a
     # user hits the Back button.
   return HttpResponseRedirect(reverse('polls:results', args=(question.id,)))
+
+# class ReactView(APIView):
+#   def get(self, request):
+#     question = [ {"question_text": question.question_text,"pub_date": question.pub_date} 
+#     for question in React.objects.all()]
+#     return Response(question)
+
+#   def post(self, request):
+#     serializer = ReactSerializer(data=request.data)
+#     if serializer.is_valid(raise_exception=True):
+#       serializer.save()
+#       return  Response(serializer.data)

@@ -1,6 +1,11 @@
 from django.urls import path
 from . import views
 
+from django.contrib import admin
+from django.urls import path, include
+from django.conf.urls import url
+from core.views import *
+
 app_name = 'polls'
 urlpatterns = [
   path('', views.IndexView.as_view(), name='index'),
@@ -8,4 +13,5 @@ urlpatterns = [
   path('<int:pk>/results/', views.ResultsView.as_view(), name='results'),
   # ex: /polls/5/vote/
   path('<int:question_id>/vote/', views.vote, name='vote'),
+  # path('wel/', ReactView.as_view(), name="something"),
 ]
